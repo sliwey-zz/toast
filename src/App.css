@@ -1,0 +1,16 @@
+.top{
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+button{
+  display: block;
+  width: 180px;
+  height: 40px;
+  margin: 20px auto;
+  background: #f5f5f5;
+  color: #666;
+  border: 1px solid #ddd;
+  outline: none;
+}

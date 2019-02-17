@@ -1,0 +1,17 @@
+.custom-toast {
+  &-loading {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("./images/loading.gif") no-repeat center / contain #fff;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .16);
+  }
+
+  &-content {
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 13px;
+    color: #fff;
+    background: #83dede;
+  }
+}
