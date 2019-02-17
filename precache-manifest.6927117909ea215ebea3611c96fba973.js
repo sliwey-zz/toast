@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/toast/static/js/runtime~main.94bb605f.js"
   },
   {
-    "revision": "10280d15263d30d6ab6e",
-    "url": "/toast/static/js/main.10280d15.chunk.js"
+    "revision": "6dfff65c2f0ce74affbb",
+    "url": "/toast/static/js/main.6dfff65c.chunk.js"
   },
   {
     "revision": "e6b63711c66cce498eb2",
     "url": "/toast/static/js/2.e6b63711.chunk.js"
   },
   {
-    "revision": "10280d15263d30d6ab6e",
+    "revision": "6dfff65c2f0ce74affbb",
     "url": "/toast/static/css/main.f333b2b4.chunk.css"
   },
   {
-    "revision": "46a1ce741a464c0c6c686a6e5d58a184",
+    "revision": "fd8935e3c0d3555362fe5022debff9cf",
     "url": "/toast/index.html"
   }
 ];
