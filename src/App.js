@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import toast from './components/toast';
-import customToast from './components/custom-toast';
+import Toast from './components/toast';
+import CustomToast from './components/custom-toast';
 import './App.css';
 
 export default class App extends Component {
@@ -13,27 +13,27 @@ export default class App extends Component {
   }
 
   show = () => {
-    toast.show('message');
+    Toast.show('message');
   }
 
   success = () => {
-    toast.success('success');
+    Toast.success('success');
   }
 
   fail = () => {
-    toast.fail('fail');
+    Toast.fail('fail');
   }
 
   loading = () => {
-    toast.loading('loading');
+    Toast.loading('loading');
   }
 
   hide = () => {
-    toast.hide();
+    Toast.hide();
   }
 
   changeMask = ({target}) => {
-    toast.config({
+    Toast.config({
       mask: target.checked
     })
     this.setState({
@@ -42,11 +42,11 @@ export default class App extends Component {
   }
 
   customLoading = () => {
-    customToast.loading();
+    CustomToast.loading();
   }
 
   customShow = () => {
-    customToast.show('自定义样式');
+    CustomToast.show('自定义样式');
   }
 
   render() {
@@ -56,13 +56,13 @@ export default class App extends Component {
         <div className="top">
           <label><input type="checkbox" onChange={this.changeMask} checked={maskable} />是否需要mask</label>
         </div>
-        <button onClick={this.show}>toast.show()</button>
-        <button onClick={this.success}>toast.success()</button>
-        <button onClick={this.fail}>toast.fail()</button>
-        <button onClick={this.loading}>toast.loading()</button>
-        <button onClick={this.hide}>toast.hide()</button>
-        <button onClick={this.customLoading}>customToast.loading()</button>
-        <button onClick={this.customShow}>customToast.show()</button>
+        <button onClick={this.show}>Toast.show()</button>
+        <button onClick={this.success}>Toast.success()</button>
+        <button onClick={this.fail}>Toast.fail()</button>
+        <button onClick={this.loading}>Toast.loading()</button>
+        <button onClick={this.hide}>Toast.hide()</button>
+        <button onClick={this.customLoading}>CustomToast.loading()</button>
+        <button onClick={this.customShow}>CustomToast.show()</button>
       </div>
     );
   }
