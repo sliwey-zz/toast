@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/toast/static/css/main.f333b2b4.chunk.css"
   },
   {
-    "revision": "fd8935e3c0d3555362fe5022debff9cf",
+    "revision": "0671a353d6d329e4e96296c7e49d4bd1",
     "url": "/toast/index.html"
   }
 ];
